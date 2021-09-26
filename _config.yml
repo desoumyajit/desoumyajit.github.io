@@ -18,5 +18,20 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 github_username:  desoumyajit
 linkedin_username: desoumyajit
 
+jekyll-archives:
+  enabled: all
+  layouts:
+    year: archive/year
+    month: archive/month
+    day: archive/day
+    tag: archive/tag
+    category: archive/category
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tags/:name/'
+    category: '/category/:name/'
+
 # Build settings
 markdown: kramdown
