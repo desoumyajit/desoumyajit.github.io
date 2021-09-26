@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Testing Mathjax!"
+date:   2021-09-26 19:29:05 +0530
+categories: math
+usemathjax: true
+---
+For two non-empty sets $$A$$ and $$B$$, if each element $$x$$ of $$A$$ are associated with an element of $$B$$, then we can define this association as a function from $$A$$ to $$B$$ (or a mapping of $$A$$ into $$B$$), written as $$f:A\to B$$.
